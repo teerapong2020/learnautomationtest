@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.14.3 on darwin)" generated="2026-03-04T09:14:21.521534" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.14.3 on darwin)" generated="2026-03-04T10:12:42.790773" rpa="false" schemaversion="5">
 <suite id="s1" name="Uat" source="/Users/teerapong.c/Desktop/test/automato_seletor/pageUat/testcases/uat.robot">
 <test id="s1-t1" name="TC_login" line="5">
 <kw name="Open Web" owner="common">
 <kw name="New Browser" owner="Browser">
-<msg time="2026-03-04T09:14:21.721639" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/teerapong.c/Desktop/test/automato_seletor/pageUat/testcases/../result/browser/traces/temp/690e5082-1aa0-4c10-a307-11d7167a6d61"}</msg>
-<msg time="2026-03-04T09:14:21.751128" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/Browser/wrapper/index.js using at 127.0.0.1:56441</msg>
-<msg time="2026-03-04T09:14:24.195693" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/teerapong.c/Desktop/test/automato_seletor/pageUat/testcases/../result/browser/traces/temp/690e5082-1aa0-4c10-a307-11d7167a6d61"}</msg>
+<msg time="2026-03-04T10:12:42.962317" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/teerapong.c/Desktop/test/automato_seletor/pageUat/testcases/../result/browser/traces/temp/06ed453f-acc2-47f3-b5d2-6c27906674f9"}</msg>
+<msg time="2026-03-04T10:12:43.005509" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/Browser/wrapper/index.js using at 127.0.0.1:50270</msg>
+<msg time="2026-03-04T10:12:45.237685" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/teerapong.c/Desktop/test/automato_seletor/pageUat/testcases/../result/browser/traces/temp/06ed453f-acc2-47f3-b5d2-6c27906674f9"}</msg>
 <arg>chromium</arg>
 <arg>${FALSE}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2026-03-04T09:14:21.721262" elapsed="2.474704"/>
+<status status="PASS" start="2026-03-04T10:12:42.961977" elapsed="2.275997"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2026-03-04T09:14:24.197933" level="INFO">{
+<msg time="2026-03-04T10:12:45.239891" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -29,43 +29,43 @@
     "width": 1280
   }
 }</msg>
-<msg time="2026-03-04T09:14:24.224402" level="INFO">Successfully created context. </msg>
-<msg time="2026-03-04T09:14:24.224466" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2026-03-04T10:12:45.269277" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-04T10:12:45.269343" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2026-03-04T09:14:24.196383" elapsed="0.028138"/>
+<status status="PASS" start="2026-03-04T10:12:45.238349" elapsed="0.031049"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2026-03-04T09:14:25.190752" level="INFO">Successfully initialized new page object and opened url: https://free-at-training.doppio-tech.com/sit/home.html</msg>
+<msg time="2026-03-04T10:12:46.243534" level="INFO">Successfully initialized new page object and opened url: https://free-at-training.doppio-tech.com/sit/home.html</msg>
 <arg>${url}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2026-03-04T09:14:24.224671" elapsed="0.966500"/>
+<status status="PASS" start="2026-03-04T10:12:45.269545" elapsed="0.974140"/>
 </kw>
 <arg>${env_url}</arg>
-<status status="PASS" start="2026-03-04T09:14:21.720917" elapsed="3.470586"/>
+<status status="PASS" start="2026-03-04T10:12:42.961652" elapsed="3.282153"/>
 </kw>
 <kw name="go to product page" owner="nav">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-04T09:14:25.227042" level="INFO">Waited for Element with selector a[id="nav-product" ] at state visible</msg>
+<msg time="2026-03-04T10:12:46.266629" level="INFO">Waited for Element with selector a[id="nav-product" ] at state visible</msg>
 <arg>${nav_product}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.193085" elapsed="0.034068"/>
+<status status="PASS" start="2026-03-04T10:12:46.244644" elapsed="0.022093"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-03-04T09:14:25.227682" level="INFO">Clicks the element 'a[id="nav-product" ]'.</msg>
+<msg time="2026-03-04T10:12:46.267252" level="INFO">Clicks the element 'a[id="nav-product" ]'.</msg>
 <arg>${nav_product}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.227313" elapsed="0.183124"/>
+<status status="PASS" start="2026-03-04T10:12:46.266890" elapsed="0.183273"/>
 </kw>
-<status status="PASS" start="2026-03-04T09:14:25.192358" elapsed="0.218186"/>
+<status status="PASS" start="2026-03-04T10:12:46.244207" elapsed="0.206074"/>
 </kw>
 <kw name="charge lang for test" owner="nav">
 <if>
@@ -75,28 +75,28 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="NOT RUN" start="2026-03-04T09:14:25.411392" elapsed="0.000040"/>
+<status status="NOT RUN" start="2026-03-04T10:12:46.451149" elapsed="0.000045"/>
 </kw>
-<status status="NOT RUN" start="2026-03-04T09:14:25.411156" elapsed="0.000313"/>
+<status status="NOT RUN" start="2026-03-04T10:12:46.450909" elapsed="0.000326"/>
 </branch>
 <branch type="ELSE IF" condition="'${lang}' == 'th'">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-04T09:14:25.412421" level="INFO">Clicks the element ' span[data-lang="th"]'.</msg>
+<msg time="2026-03-04T10:12:46.452098" level="INFO">Clicks the element ' span[data-lang="th"]'.</msg>
 <arg>${btn_lang.th}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.411639" elapsed="0.117313"/>
+<status status="PASS" start="2026-03-04T10:12:46.451422" elapsed="0.163923"/>
 </kw>
-<status status="PASS" start="2026-03-04T09:14:25.411506" elapsed="0.117630"/>
+<status status="PASS" start="2026-03-04T10:12:46.451274" elapsed="0.164143"/>
 </branch>
-<status status="PASS" start="2026-03-04T09:14:25.411117" elapsed="0.118072"/>
+<status status="PASS" start="2026-03-04T10:12:46.450882" elapsed="0.164572"/>
 </if>
-<status status="PASS" start="2026-03-04T09:14:25.410875" elapsed="0.118359"/>
+<status status="PASS" start="2026-03-04T10:12:46.450620" elapsed="0.164871"/>
 </kw>
 <kw name="verify login required message" owner="product">
 <kw name="Get Text" owner="Browser">
-<msg time="2026-03-04T09:14:25.583410" level="INFO">Text: 'ต้องเข้าสู่ระบบ'</msg>
+<msg time="2026-03-04T10:12:46.649926" level="INFO">Text: 'ต้องเข้าสู่ระบบ'</msg>
 <arg>${msg_verifly_login_required}</arg>
 <arg>==</arg>
 <arg>${msg_login_required}</arg>
@@ -104,73 +104,73 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.529919" elapsed="0.053842"/>
+<status status="PASS" start="2026-03-04T10:12:46.616019" elapsed="0.034046"/>
 </kw>
-<status status="PASS" start="2026-03-04T09:14:25.529565" elapsed="0.054760"/>
+<status status="PASS" start="2026-03-04T10:12:46.615673" elapsed="0.034486"/>
 </kw>
 <kw name="login from product page" owner="product">
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2026-03-04T09:14:25.600932" level="INFO">Waited for Element with selector button[id="btn-go-to-login"] at state visible</msg>
+<msg time="2026-03-04T10:12:46.654090" level="INFO">Waited for Element with selector button[id="btn-go-to-login"] at state visible</msg>
 <arg>${btn_go_to_login}</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.586174" elapsed="0.015397"/>
+<status status="PASS" start="2026-03-04T10:12:46.650693" elapsed="0.003513"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2026-03-04T09:14:25.603096" level="INFO">Clicks the element 'button[id="btn-go-to-login"]'.</msg>
+<msg time="2026-03-04T10:12:46.654671" level="INFO">Clicks the element 'button[id="btn-go-to-login"]'.</msg>
 <arg>${btn_go_to_login}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.601863" elapsed="0.160907"/>
+<status status="PASS" start="2026-03-04T10:12:46.654352" elapsed="0.178224"/>
 </kw>
-<status status="PASS" start="2026-03-04T09:14:25.585572" elapsed="0.177303"/>
+<status status="PASS" start="2026-03-04T10:12:46.650417" elapsed="0.182327"/>
 </kw>
 <kw name="input username" owner="login">
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-03-04T09:14:25.767671" level="INFO">Fills the text 'sit_tester' in the given field.</msg>
+<msg time="2026-03-04T10:12:46.834303" level="INFO">Fills the text 'sit_tester' in the given field.</msg>
 <arg>${txt_user_info.username}</arg>
 <arg>${username}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.764781" elapsed="0.020241"/>
+<status status="PASS" start="2026-03-04T10:12:46.833748" elapsed="0.017380"/>
 </kw>
 <arg>${userlogin.username}</arg>
-<status status="PASS" start="2026-03-04T09:14:25.763091" elapsed="0.022027"/>
+<status status="PASS" start="2026-03-04T10:12:46.833057" elapsed="0.018163"/>
 </kw>
 <kw name="input password" owner="login">
 <kw name="Fill Text" owner="Browser">
-<msg time="2026-03-04T09:14:25.786426" level="INFO">Fills the text 'pass1234' in the given field.</msg>
+<msg time="2026-03-04T10:12:46.852728" level="INFO">Fills the text 'pass1234' in the given field.</msg>
 <arg>${txt_user_info.password}</arg>
 <arg>${password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.785908" elapsed="0.005963"/>
+<status status="PASS" start="2026-03-04T10:12:46.852037" elapsed="0.007383"/>
 </kw>
 <arg>${userlogin.password}</arg>
-<status status="PASS" start="2026-03-04T09:14:25.785335" elapsed="0.006624"/>
+<status status="PASS" start="2026-03-04T10:12:46.851400" elapsed="0.008243"/>
 </kw>
 <kw name="click login button" owner="login">
 <kw name="Click" owner="Browser">
-<msg time="2026-03-04T09:14:25.792615" level="INFO">Clicks the element 'button[id="btn-login"]'.</msg>
+<msg time="2026-03-04T10:12:46.861286" level="INFO">Clicks the element 'button[id="btn-login"]'.</msg>
 <arg>${btn_login}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2026-03-04T09:14:25.792355" elapsed="0.994863"/>
+<status status="PASS" start="2026-03-04T10:12:46.860830" elapsed="1.006085"/>
 </kw>
-<status status="PASS" start="2026-03-04T09:14:25.792131" elapsed="0.995204"/>
+<status status="PASS" start="2026-03-04T10:12:46.860085" elapsed="1.007268"/>
 </kw>
-<msg time="2026-03-04T09:14:26.796117" level="INFO">Switching context to context=658ce547-5048-47ae-9389-7e59217692ae in CURRENT</msg>
-<msg time="2026-03-04T09:14:26.802282" level="INFO">Successfully changed active context: context=658ce547-5048-47ae-9389-7e59217692ae</msg>
-<msg time="2026-03-04T09:14:26.828785" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2026-03-04T09:14:21.720553" elapsed="5.066974"/>
+<msg time="2026-03-04T10:12:47.876054" level="INFO">Switching context to context=4ef2444d-d0b8-4d3e-b3e0-2260bc6cea48 in CURRENT</msg>
+<msg time="2026-03-04T10:12:47.883262" level="INFO">Successfully changed active context: context=4ef2444d-d0b8-4d3e-b3e0-2260bc6cea48</msg>
+<msg time="2026-03-04T10:12:47.910933" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-03-04T10:12:42.961306" elapsed="4.906435"/>
 </test>
-<status status="PASS" start="2026-03-04T09:14:21.522391" elapsed="5.307039"/>
+<status status="PASS" start="2026-03-04T10:12:42.791528" elapsed="5.119903"/>
 </suite>
 <statistics>
 <total>
