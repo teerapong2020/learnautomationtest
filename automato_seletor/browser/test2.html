@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Selector Practice - Level 1 & 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f8;
+      color: #111827;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 1.5rem 2rem;
+    }
+
+    header h1 {
+      margin: 0 0 0.25rem 0;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.9;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .panel {
+      border: 1px solid #e5e7eb;
+      padding: 1rem;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+      font-size: 0.9em;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 0.4rem 0.5rem;
+      text-align: left;
+    }
+
+    thead {
+      background: #f9fafb;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e5e7eb;
+      color: #4b5563;
+      border-radius: 999px;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.75rem;
+      margin-right: 0.25rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CSS Selectors Practice</h1>
+  <p>Level 1 (Basic) + Level 2 (Advanced)</p>
+</header>
+
+<main>
+
+  <!-- ===========================
+       LEVEL 1: BASIC SELECTORS
+       =========================== -->
+  <section id="level1">
+    <h2>Level 1: Basic CSS Selectors</h2>
+
+    <h3 id="basic-title">Basic Selectors Title</h3>
+    <div>
+        <p class="content">Line 1 : This is a normal paragraph with class <code>content</code>.</p>
+    
+        <p class="content highlight">Line 2 : This paragraph has class <code>content</code> and <code>highlight</code>.</p>
+        
+        <p id="content">Line 3 : This paragraph has id <code>content</code>.</p>
+    </div>
+
+    <div class="columns">
+
+      <div class="panel">
+        <h4>Shopping List</h4>
+        <ul id="shopping-list">
+          <li class="item">Apples</li>
+          <li class="item special">Bananas</li>
+          <li class="item">Red Carrots</li>
+          <li class="item">Carrots</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h4>Simple Navigation</h4>
+        <nav id="main-nav">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#products" class="nav-link">Products</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="panel">
+        <h4>Form Login</h4>
+        <form id="basic-form">
+          <label for="basic-name">Name</label><br />
+          <input id="basic-name" type="text" name="username" />
+
+          <br /><br />
+
+          <label for="basic-email">Email</label><br />
+          <input type="email" name="email" />
+
+          <br /><br />
+
+          <label for="basic-role">Role</label>
+          <select name="role">
+            <option value="">Select</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+          </select>
+
+          <br /><br />
+
+          <input type="checkbox" class="remember" />
+          <span>Remember me</span>
+          <br /><br />
+          
+          <button type="submit" class="btn login-btn">
+            Login
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===========================
+       LEVEL 2: ADVANCED SELECTORS
+       =========================== -->
+  <section id="level2">
+    <h2>Level 2: Advanced CSS Selectors</h2>
+
+    <div class="columns">
+
+      <div class="panel">
+        <h3>User Steps</h3>
+        <ol id="steps-list">
+          <li class="step">Open Browser</li>
+          <li class="step important">Go to Login</li>
+          <li class="step">Enter Credentials</li>
+          <li class="step important">Click Login</li>
+          <li class="step">Verify Login</li>
+        </ol>
+      </div>
+      <div class="panel">
+        <h4>Form Register</h4>
+        <form id="form-register">
+          <label for="advance-name">Name</label>
+          <input type="text" name="username" />
+
+          <br /><br />
+
+          <label for="advance-email">Email</label>
+          <input type="email" name="email" />
+
+          <br /><br />
+
+          <label for="advance-role">Role</label>
+          <select name="role">
+            <option value="">Select</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+          </select>
+
+          <br /><br />
+          
+          <button type="submit" class="btn register-btn">
+            Register
+          </button>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h3>Users Table</h3>
+
+        <table id="users-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>User</th>
+              <th>Role</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr class="user-row" data-role="admin">
+              <td class="index">1</td>
+              <td class="name">Alice</td>
+              <td class="role">Admin</td>
+              <td class="status">Active</td>
+            </tr>
+
+            <tr class="user-row" data-role="user">
+              <td class="index">2</td>
+              <td class="name">Bob</td>
+              <td class="role">User</td>
+              <td class="status">Pending</td>
+            </tr>
+
+            <tr class="user-row" data-role="user">
+              <td class="index">3</td>
+              <td class="name">Charlie</td>
+              <td class="role">User</td>
+              <td class="status">Active</td>
+            </tr>
+
+            <tr class="user-row" data-role="moderator">
+              <td class="index">4</td>
+              <td class="name">Dana</td>
+              <td class="role">Moderator</td>
+              <td class="status">Disabled</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+</body>
+</html>

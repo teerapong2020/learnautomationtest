@@ -1,0 +1,4 @@
+userlogin:
+    username: sit_tester
+    password: pass1234
+env_url:    https://free-at-training.doppio-tech.com/sit/home.html

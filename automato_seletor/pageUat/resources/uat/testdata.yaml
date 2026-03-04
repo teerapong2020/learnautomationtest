@@ -1,0 +1,4 @@
+userlogin:
+    username: uat_tester
+    password: pass1234
+env_url:    https://free-at-training.doppio-tech.com/uat/home.html

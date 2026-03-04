@@ -1,0 +1,5 @@
+doppio2user:
+    name: "Gcccc${num}"
+    phone: "08{num}"
+    email: "e{num}@gmail.com"
+    password: "Cc{num}"

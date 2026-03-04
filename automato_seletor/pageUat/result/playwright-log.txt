@@ -1,0 +1,63 @@
+{"level":30,"time":"2026-03-04T02:14:22.109Z","pid":4096,"hostname":"champ.local","msg":"Listening on 127.0.0.1:56441"}
+{"level":30,"time":"2026-03-04T02:14:23.201Z","pid":4096,"hostname":"champ.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-04T02:14:24.194Z","pid":4096,"hostname":"champ.local","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-04T02:14:24.195Z","pid":4096,"hostname":"champ.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-04T02:14:24.195Z","pid":4096,"hostname":"champ.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-04T02:14:24.198Z","pid":4096,"hostname":"champ.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-04T02:14:24.198Z","pid":4096,"hostname":"champ.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2026-03-04T02:14:24.198Z","pid":4096,"hostname":"champ.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b94346ab332fc0631536c541c3c4c695\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=624a1346-b7be-4346-bc81-b86ec5100c47\"}"}
+{"level":30,"time":"2026-03-04T02:14:24.198Z","pid":4096,"hostname":"champ.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-04T02:14:24.223Z","pid":4096,"hostname":"champ.local","msg":"Setting default timeout for context context=658ce547-5048-47ae-9389-7e59217692ae to 10000"}
+{"level":30,"time":"2026-03-04T02:14:24.223Z","pid":4096,"hostname":"champ.local","msg":"Changed active context: context=658ce547-5048-47ae-9389-7e59217692ae"}
+{"level":30,"time":"2026-03-04T02:14:24.223Z","pid":4096,"hostname":"champ.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-04T02:14:24.225Z","pid":4096,"hostname":"champ.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-04T02:14:24.226Z","pid":4096,"hostname":"champ.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b94346ab332fc0631536c541c3c4c695\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=658ce547-5048-47ae-9389-7e59217692ae\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@72be24862d2bddf258c0cdc2be226fb0\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=624a1346-b7be-4346-bc81-b86ec5100c47\"}"}
+{"level":30,"time":"2026-03-04T02:14:24.701Z","pid":4096,"hostname":"champ.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-04T02:14:24.701Z","pid":4096,"hostname":"champ.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-04T02:14:25.189Z","pid":4096,"hostname":"champ.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-04T02:14:25.194Z","pid":4096,"hostname":"champ.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-04T02:14:25.195Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: a[id=\"nav-product\" ] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.226Z","pid":4096,"hostname":"champ.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-04T02:14:25.228Z","pid":4096,"hostname":"champ.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.228Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: a[id=\"nav-product\" ] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.409Z","pid":4096,"hostname":"champ.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.413Z","pid":4096,"hostname":"champ.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.413Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator:  span[data-lang=\"th\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.528Z","pid":4096,"hostname":"champ.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.531Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-04T02:14:25.531Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: h2[data-i18n=\"login_required\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.581Z","pid":4096,"hostname":"champ.local","msg":"Retrieved text for element h2[data-i18n=\"login_required\"] containing ต้องเข้าสู่ระบบ"}
+{"level":30,"time":"2026-03-04T02:14:25.581Z","pid":4096,"hostname":"champ.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-04T02:14:25.589Z","pid":4096,"hostname":"champ.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-03-04T02:14:25.589Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: button[id=\"btn-go-to-login\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.598Z","pid":4096,"hostname":"champ.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-03-04T02:14:25.605Z","pid":4096,"hostname":"champ.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.605Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: button[id=\"btn-go-to-login\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.762Z","pid":4096,"hostname":"champ.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.769Z","pid":4096,"hostname":"champ.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-04T02:14:25.769Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator:  input[id=\"username\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.784Z","pid":4096,"hostname":"champ.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-04T02:14:25.786Z","pid":4096,"hostname":"champ.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-04T02:14:25.786Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator:  input[id=\"password\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:25.790Z","pid":4096,"hostname":"champ.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-04T02:14:25.793Z","pid":4096,"hostname":"champ.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-04T02:14:25.793Z","pid":4096,"hostname":"champ.local","msg":"Strict mode is disabled, return first Locator: button[id=\"btn-login\"] in page."}
+{"level":30,"time":"2026-03-04T02:14:26.786Z","pid":4096,"hostname":"champ.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-04T02:14:26.790Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.792Z","pid":4096,"hostname":"champ.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.793Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.793Z","pid":4096,"hostname":"champ.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.794Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.794Z","pid":4096,"hostname":"champ.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.797Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.798Z","pid":4096,"hostname":"champ.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.798Z","pid":4096,"hostname":"champ.local","msg":"Changed active context: context=658ce547-5048-47ae-9389-7e59217692ae"}
+{"level":30,"time":"2026-03-04T02:14:26.798Z","pid":4096,"hostname":"champ.local","msg":"Changing current active page: page=a2022c96-8436-41f3-af6e-f262b26a40a7"}
+{"level":30,"time":"2026-03-04T02:14:26.799Z","pid":4096,"hostname":"champ.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-04T02:14:26.802Z","pid":4096,"hostname":"champ.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-04T02:14:26.815Z","pid":4096,"hostname":"champ.local","msg":"Removed page=36bc38ce-765f-4ca8-a0df-591bef72fe49 from context=658ce547-5048-47ae-9389-7e59217692ae page stack"}
+{"level":30,"time":"2026-03-04T02:14:26.828Z","pid":4096,"hostname":"champ.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-04T02:14:26.830Z","pid":4096,"hostname":"champ.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.830Z","pid":4096,"hostname":"champ.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-04T02:14:26.847Z","pid":4096,"hostname":"champ.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-04T02:14:26.904Z","pid":4096,"hostname":"champ.local","msg":"End of node method closeAllBrowsers"}

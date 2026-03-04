@@ -1,0 +1,13 @@
+man:  
+  hero: ironman     
+  villain: Thanos
+  antihero: Deadpool
+
+user:
+     name=champ     sur=eiei
+
+hero:
+    - batman
+    - superman
+    - wonder women
+    - flash
